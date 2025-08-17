@@ -6,12 +6,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ThemeProvider } from './GlobalComponents/ThemeProvider';
 import { CartProvider } from 'react-use-cart';
-
+import { BrowserRouter } from 'react-router-dom';
 render(
   <React.StrictMode>
+    
     <ThemeProvider>
       <CartProvider>
+        <BrowserRouter>
         <App />
+        </BrowserRouter>
       </CartProvider>
     </ThemeProvider>
   </React.StrictMode>
