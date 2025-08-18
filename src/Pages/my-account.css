@@ -23,4 +23,7 @@
 }
 .border-primary{
     border: 1px solid #274059 !important;
-  }
+}
+.container{
+    overflow-x: hidden;
+}

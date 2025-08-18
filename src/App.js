@@ -30,6 +30,7 @@ function App() {
       </Router>*/}
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/my-account" element={<MyAccount />} />
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/register" element={<Register />} />
         <Route path="/product-details/:productId" element={<ProductDetails />} />
