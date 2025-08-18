@@ -69,8 +69,11 @@ const Cart = () => {
                             <Button variant="success"
                                 className="m-2"
                             >
-                                <BsCartCheck size="1.7rem" />
+                                {/*<BsCartCheck size="1.7rem" />
                                 Conform Order
+                            </Button>*/}
+                            <BsCartCheck size="1.7rem" />
+                                Clear Cart
                             </Button>
                         </Col>
                     </Row>}

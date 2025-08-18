@@ -1,6 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Tab, Nav, Image } from 'react-bootstrap';
-//import { BsCartCheck, BsCartX} from 'react-icons/bs';
+import { Container, Row, Col, Tab, Nav, Image, Form, Button, Badge } from 'react-bootstrap';
 import { useThemeHook } from '../GlobalComponents/ThemeProvider';
 import Heading from  '../components/Heading';
 import profilePix from '../images/profile-picture.png';
@@ -10,14 +9,15 @@ import { IoLocationSharp } from 'react-icons/io5';
 import './my-account.css';
 import OrderCard from '../components/OrderCard';
 
+
 const MyAccount = (props) => {
     const [theme] = useThemeHook();
     return (
-        <Container>
-            <Heading heading="My Account" className="py-5"/>
+        <Container className="py-5 mt-5">
+            <Heading heading="My Account"/>
             <Tab.Container defaultActiveKey="my-orders">
-                <Row className="justify-content-evenly mt-4 p-1">
-                     <Col sm={3} className={`${theme? 'text-light bg-dark' : 'text-light-primary bg-light'} p-2 rounded h-100 mb-3 user-menu shadow-lg`}>
+                <Row className="mt-4 p-1">
+                     <Col sm={3} className={`${theme? 'text-light bg-dark' : 'text-light-primary bg-light'} p-2 rounded h-100 mb-3 me-3 user-menu shadow-lg`}>
                         <Row className="mb-3 py-2">
                            <Col xs={3} className="pe-0">
                                 <Image
