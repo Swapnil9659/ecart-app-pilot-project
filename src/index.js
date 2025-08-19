@@ -12,7 +12,7 @@ render(
     
     <ThemeProvider>
       <CartProvider>
-        <BrowserRouter basename="/ecart-app-pilot-project">
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
         <App />
         </BrowserRouter>
       </CartProvider>
