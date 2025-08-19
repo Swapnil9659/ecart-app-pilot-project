@@ -12,7 +12,7 @@ render(
     
     <ThemeProvider>
       <CartProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/ecart-app-pilot-project">
         <App />
         </BrowserRouter>
       </CartProvider>
