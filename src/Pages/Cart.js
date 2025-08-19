@@ -73,7 +73,7 @@ const Cart = () => {
                                 Conform Order
                             </Button>*/}
                             <BsCartCheck size="1.7rem" />
-                                Clear Cart
+                                Conform Order
                             </Button>
                         </Col>
                     </Row>}
