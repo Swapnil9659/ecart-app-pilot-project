@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ecart-app-pilot-project/static/css/main.a45888b1.css",
-    "main.js": "/ecart-app-pilot-project/static/js/main.746b6d0f.js",
-    "static/js/453.c6d6b0ff.chunk.js": "/ecart-app-pilot-project/static/js/453.c6d6b0ff.chunk.js",
-    "static/media/profile-picture.png": "/ecart-app-pilot-project/static/media/profile-picture.2fda6558cd58b877e14f.png",
-    "index.html": "/ecart-app-pilot-project/index.html",
-    "main.a45888b1.css.map": "/ecart-app-pilot-project/static/css/main.a45888b1.css.map",
-    "main.746b6d0f.js.map": "/ecart-app-pilot-project/static/js/main.746b6d0f.js.map",
-    "453.c6d6b0ff.chunk.js.map": "/ecart-app-pilot-project/static/js/453.c6d6b0ff.chunk.js.map"
+    "main.css": "/static/css/main.a45888b1.css",
+    "main.js": "/static/js/main.63251775.js",
+    "static/js/453.c6d6b0ff.chunk.js": "/static/js/453.c6d6b0ff.chunk.js",
+    "static/media/profile-picture.png": "/static/media/profile-picture.2fda6558cd58b877e14f.png",
+    "index.html": "/index.html",
+    "main.a45888b1.css.map": "/static/css/main.a45888b1.css.map",
+    "main.63251775.js.map": "/static/js/main.63251775.js.map",
+    "453.c6d6b0ff.chunk.js.map": "/static/js/453.c6d6b0ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a45888b1.css",
-    "static/js/main.746b6d0f.js"
+    "static/js/main.63251775.js"
   ]
 }
